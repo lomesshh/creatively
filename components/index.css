@@ -1,0 +1,256 @@
+
+.hero, .features, .installation, .footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* navbar */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-color);
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -5px #222;
+}
+
+.nav-left img{
+    height: 4rem;
+    width: 12rem;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 1rem;
+}
+
+.nav-right li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.nav-right a{
+    text-decoration: none;
+}
+
+/* hero */
+
+.hero{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+.hero-info p, .features-name, .installation-name {
+font-size: 3rem;
+font-weight: 550;
+}
+
+.hero-info span {
+ font-size: 1.5rem;
+}
+
+.hero-info{
+    width: 50%;
+}
+
+.hero-btn{
+    margin-top: 8%;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.hero-btn a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hero-img {
+    width: 40%;
+    padding-left: 5%;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.hero-arrow img{
+    display: flex;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.features-name, .installation-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.features-detail{
+    display: flex;
+    flex-direction: row;
+}
+
+.features-name, .installation-name  {
+background: -webkit-linear-gradient(#0FADD4, #368CE0, #695FEF, #9637FC);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.features-card p, .install-one span{
+    font-size: 18px;
+}
+
+.features-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-card img{
+    height: 70px;
+    margin: 4% 0%;
+}
+
+.features-card img[alt="weight"]{
+    height: 100px;
+    margin: 0% 0%;
+}
+
+
+.card{
+        color: #333;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin: 10px;
+}
+
+.installation{
+    margin-bottom: 3rem;
+}
+
+.installation h3{
+    margin: 0 auto;
+}
+
+.install-one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.install-info{
+    width: 40%;
+}
+.install-iframe{
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+iframe{
+    border: none;
+    max-height: 100px;
+    width: 600px;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.footer{
+        margin: 0 auto;
+        padding: 2rem 0rem 1rem 0rem;
+        border-top: 2px solid var(--primary-color);
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.footer .social a {
+    margin: 0 10px;  
+}
+  
+.fa-heart{
+    color: red;
+    text-shadow: 0 0 5px red;
+    transition: all 0.5s ease;
+}
+  
+.fa-github:hover {
+    color: #000000;
+    text-shadow: 0 0 15px  #000000;
+    transition: all 0.5s ease;
+}
+  
+.fa-linkedin:hover {
+    color: var(--primary-color);
+    text-shadow: 0 0 15px var(--primary-color);
+    transition: all 0.5s ease;
+}
+  
+.fa-twitter:hover {
+    color: var(--primary-color);
+    text-shadow: 0 0 15px  var(--primary-color);
+    transition: all 0.5s ease;
+}
+  
+@media (max-width: 850px) {
+      .hero{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+      }
+      .hero-info, .hero-img{
+          width: 80%;
+      }
+      .features-detail{
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+      }
+      .install-one{
+          flex-wrap: wrap;
+          width: 80%;
+          margin: 0 auto;
+      }
+      .install-info{
+          margin: 0 10%;
+          width: 100%;
+      }
+      iframe{
+        margin-top: 5%;
+      }
+      .hero-info p{
+        font-size: 2rem;
+    }
+      
+}
+
+@media (max-width: 500px) {
+        .navbar, .footer-flex{
+            flex-wrap: wrap;
+        }
+        .nav-left, .nav-right, .footer-text, .social{
+            margin: 0 auto;
+        }
+        .hero-info p{
+            font-size: 2rem;
+        }
+        .social{
+            margin-top: 3%;
+        }
+}
