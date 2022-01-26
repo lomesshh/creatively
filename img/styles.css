@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    color: #1c8ccf;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+body {
+    margin: auto;
+    background-color: #e9f5fc;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hero, .features{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* navbar */
+
+.navbar {
+    /* position: fixed; */
+    width: 100%;;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9f5fc;
+    height: 90px;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -5px #222;
+}
+
+.nav-left img{
+    height: 4rem;
+    width: 12rem;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 1rem;
+}
+
+.nav-right li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.nav-right a{
+    text-decoration: none;
+}
+
+/* hero */
+
+.hero{
+    display: flex;
+    padding: 1rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.hero-info p, .features-name, .installation-name {
+font-size: 3rem;
+font-weight: 550;
+}
+
+.hero-info span {
+ font-size: 1.5rem;
+}
+
+.hero-info{
+    width: 50%;
+}
+
+.hero-btn{
+    margin-top: 8%;
+    padding: 1rem 2rem;
+    background-color: #1c8ccf;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.hero-btn a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hero-img img{
+    height: 500px;
+    padding-left: 5rem;
+}
+
+.hero-arrow img{
+    display: flex;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.features-name, .installation-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.features-detail{
+    display: flex;
+}
+.features-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-card img{
+    height: 100px;
+}
+
+.card{
+        color: #333;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin: 10px;
+}
