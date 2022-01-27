@@ -11,5 +11,7 @@
     --warning-alert-bg-color: #f7e7b9;
     --dark-alert-bg-color: #c0b5b5;
 
-    --background-color: #f6fbfe;
+    --heading-color: rgb(73, 73, 73);
+    --text-color: rgb(99, 98, 98);
+    --background-color: #fff;
 }

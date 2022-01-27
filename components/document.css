@@ -59,6 +59,7 @@
     border-radius: 20px;
     padding: 1rem 0;
     margin: 1rem 0;
+    background-color: #edf0f3;
 }
 
 .component__example > div {
@@ -87,3 +88,14 @@
 .button__example > button, .button__example > a{
     margin: 0.5rem 0.8rem;
 }   
+
+.input__example{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.radio__example{
+    display: flex;
+    flex-direction: column;
+}
