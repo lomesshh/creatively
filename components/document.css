@@ -1,4 +1,4 @@
-.doc__main--flex{
+.doc__main-flex{
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
@@ -45,9 +45,9 @@
 
 .component__name,
 .component__desc,
-.component__sub__title,
-.component__sub__desc {
-    margin-bottom: 2%;
+.component__sub-title,
+.component__sub-desc {
+    margin-bottom: 3%;
 }
 
 .component__example{

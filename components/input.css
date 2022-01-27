@@ -11,35 +11,20 @@
     background-color: rgb(231, 231, 231);
 }
 
-.input-err{
+.input-error{
     width: 70%;
 }
 
-.input-err .input-field{
+.input-error .input-field{
     width: 100%;
     border: 1px solid red;
 }
 
-.err-msg{
+.error-message{
     font-size: 0.8rem;
     color: red;
     margin-top: 2px;
 }
-/* 
-input[type="radio"] {
-    color: currentColor;
-    width: 1.5rem;
-    height: 1.5rem;
-    border: 0.15em solid currentColor;
-  }
-
-  input[type="radio"]:checked{
-    transition: all 0.8s ease-out;
-    border-color: black;
-    border-width: 5px;
-
-  } */
-
 
   .radio, .checkbox {
     appearance: none;
@@ -58,7 +43,6 @@ input[type="radio"] {
 
   .square{
     border: 7px solid var(--primary-color);
-    /* border-radius: 100%; */
     background-color: var(--primary-color);
   }
   
@@ -76,7 +60,7 @@ input[type="radio"] {
     background-color: rgb(190, 190, 190);
   }
   
-  .circle:checked:before, .square:checked::before  {
+  .circle:checked::before, .square:checked::before  {
     content: "";
     height: 0.5rem;
     width: 0.5rem;
