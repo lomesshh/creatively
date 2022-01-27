@@ -1,0 +1,128 @@
+.btn{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+    cursor: pointer;
+}
+
+/* default */
+.btn-primary{
+    background-color: var(--primary-color);
+}
+
+.btn-success{
+    background-color: var(--success-color);
+}
+
+.btn-warning{
+    background-color: var(--warning-color);
+}
+
+.btn-error{
+    background-color: var(--danger-color);
+}
+
+.btn-dark{
+    background-color: var(--dark-color);
+}
+
+
+/* outline */
+.btn-outline-primary{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn-outline-success{
+    background-color: transparent;
+    color: var(--success-color);
+    border: 1px solid var(--success-color);
+}
+
+.btn-outline-warning{
+    background-color: transparent;
+    color: var(--warning-color);
+    border: 1px solid var(--warning-color);
+}
+
+.btn-outline-error{
+    background-color: transparent;
+    color: var(--danger-color);
+    border: 1px solid var(--danger-color);
+}
+
+.btn-outline-dark{
+    background-color: transparent;
+    color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+}
+
+
+
+
+.btn-outline-primary:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.btn-outline-success:hover{
+    color: white;
+    background-color: var(--success-color);
+}
+
+.btn-outline-warning:hover{
+    color: white;
+    background-color: var(--warning-color);
+}
+
+.btn-outline-error:hover{
+    color: white;
+    background-color: var(--danger-color);
+}
+
+.btn-outline-dark:hover{
+    color: white;
+    background-color: var(--dark-color);
+}
+
+
+/* link */
+
+.btn-link{
+    background-color: var(--primary-color);
+    text-decoration: none;
+}
+
+
+/* icon button  */
+
+.btn-icon{
+    background-color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.btn-icon > * {
+    color: white;
+    margin: 0 0.3rem;
+}
+
+/* float button */
+
+.btn-float{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    background-color: var(--primary-color);
+    z-index: 5;
+}
+
+.btn-float > * {
+    color: white;
+}
