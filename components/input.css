@@ -1,0 +1,68 @@
+.input-field{
+    width: 70%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.disabled-input{
+    pointer-events:none;
+    background-color: rgb(231, 231, 231);
+}
+
+.input-error{
+    width: 70%;
+}
+
+.input-error .input-field{
+    width: 100%;
+    border: 1px solid red;
+}
+
+.error-message{
+    font-size: 0.8rem;
+    color: red;
+    margin-top: 2px;
+}
+
+  .radio, .checkbox {
+    appearance: none;
+    margin: 0 0.5rem;
+  }
+  
+  .radio:checked, .checkbox:checked {
+    border-color: var(--primary-alert-bg-color);
+  }
+
+  .circle {
+    border: 7px solid var(--primary-color);
+    border-radius: 100%;
+    background-color: var(--primary-color);
+  }
+
+  .square{
+    border: 7px solid var(--primary-color);
+    background-color: var(--primary-color);
+  }
+  
+  .circle:checked, .square:checked {
+    border-width: 5px;
+  }
+
+  .circle:checked, .square:checked {
+    border-width: 5px;
+  }
+
+  .disabled-radio, .disabled-checkbox{
+    pointer-events:none;
+    border-color: rgb(190, 190, 190);
+    background-color: rgb(190, 190, 190);
+  }
+  
+  .circle:checked::before, .square:checked::before  {
+    content: "";
+    height: 0.5rem;
+    width: 0.5rem;
+    display: block;
+  }

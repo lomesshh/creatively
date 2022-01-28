@@ -37,6 +37,13 @@
 
 .nav-right a{
     text-decoration: none;
+    padding: 0.5rem 0;
+    color: var(--primary-color);
+    transition: all 0.2s ease;
+}
+
+.nav-right a:hover{
+    border-bottom: 3px solid var(--primary-color);
 }
 
 /* hero */
@@ -50,6 +57,7 @@
 .hero-info p, .features-name, .installation-name {
 font-size: 3rem;
 font-weight: 550;
+color: var(--primary-color);
 }
 
 .hero-info span {
@@ -67,6 +75,11 @@ font-weight: 550;
     color: white;
     border: 0px;
     border-radius: 5px;
+}
+
+.hero-btn:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
+    cursor: pointer;
 }
 
 .hero-btn a{
@@ -102,13 +115,15 @@ font-weight: 550;
 }
 
 .features-name, .installation-name  {
-background: -webkit-linear-gradient(#0FADD4, #368CE0, #695FEF, #9637FC);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    color: var(--primary-color);
 }
 
 .features-card p, .install-one span{
     font-size: 18px;
+}
+
+.features-card h3{
+    color: var(--primary-color);
 }
 
 .features-card{
@@ -179,9 +194,17 @@ iframe{
     display: flex;
     justify-content: space-between;
 }
+
+.footer-text h2{
+    color: var(--primary-color);
+}
   
 .footer .social a {
     margin: 0 10px;  
+}
+
+.social i {
+    color: var(--primary-color);
 }
   
 .fa-heart{

@@ -1,0 +1,10 @@
+.image-responsive img, .image-responsive div > img{
+    height: 100%;
+    width: 100%;
+}
+
+.image-circular img, .image-circular div > img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
