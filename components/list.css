@@ -1,0 +1,37 @@
+.unordered-list-circle{
+    list-style-type: disc;
+}
+
+.unordered-list-square{
+    list-style-type: square;
+}
+
+.unordered-list-square li::marker, .unordered-list-circle li::marker{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+
+.ordered-list-number{
+    list-style-type:decimal ;
+}
+
+.ordered-list-upper-roman{
+    list-style-type:upper-roman;
+}
+
+.ordered-list-lower-roman{
+    list-style-type:lower-roman;
+}
+
+.ordered-list-upper-alpha{
+    list-style-type:upper-alpha;
+}
+
+.ordered-list-lower-alpha{
+    list-style-type: lower-alpha;
+}
+
+.stacked-list > li{
+    list-style: none;
+    margin-bottom: 0.8rem;
+}

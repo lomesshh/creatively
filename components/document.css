@@ -89,13 +89,26 @@
     margin: 0.5rem 0.8rem;
 }   
 
-.input__example{
+.input__example, .text__example{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
 }
 
+.text__example > * {
+    color: var(--text-color);
+}
+
 .radio__example{
     display: flex;
     flex-direction: column;
+}
+
+.align__example{
+    display: block;
+    padding: 2rem;
+}
+
+.list__example > div{
+    margin: 0.5rem 1.2rem;
 }
