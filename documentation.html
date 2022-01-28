@@ -896,7 +896,7 @@
 
 
              <!-- Toast -->
-             <div id="Toast">
+            <div id="Toast">
                 <h1 class="component__name">Toast</h1>            
                 <p class="component__desc">A toast is shown to users with readable message content at the 
                     top or bottom of the screen and disappears automatically after a few seconds.</p> 
@@ -925,13 +925,102 @@
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
-            
             </div>
-            
             
             
             <div class="line"></div>
             
+
+            <!-- Grid -->
+            <div id="Grid">
+                <h1 class="component__name">Grid</h1>            
+                <h4 class="component__sub-title">Simplified Grid</h4>
+                <p>Grids are used to guide the designers with how and where to place elements on the page.</p> 
+                <p>We have multiple grid options in this library. you can use any of then depends on your sub-childs</p>
+                <p class="component__desc">Classes we provide - <strong>gird-2</strong> | <strong>grid-3</strong> | <strong>grid-4</strong> | <strong>grid-5</strong> | <strong>grid-6</strong> | <strong>grid-responsive</strong></p>
+                
+                <div class="component__example grid__example">
+                        <p>grid with two items</p>
+                        <div class="grid grid-2">
+                            <div>one</div>
+                            <div>two</div>
+                        </div>
+
+                        <p>grid with three items</p>
+                        <div class="grid grid-3">
+                            <div>one</div>
+                            <div>two</div>
+                            <div>three</div>
+                        </div>
+
+                        <p>grid with four items</p>
+                        <div class="grid grid-4">
+                            <div>one</div>
+                            <div>two</div>
+                            <div>three</div>
+                            <div>Four</div>
+                        </div>
+
+                        <p>grid with five items</p>
+                        <div class="grid grid-5">
+                            <div>one</div>
+                            <div>two</div>
+                            <div>three</div>
+                            <div>Four</div>
+                            <div>Five</div>
+                        </div>
+
+                        <p>grid with six items</p>
+                        <div class="grid grid-6">
+                            <div>one</div>
+                            <div>two</div>
+                            <div>three</div>
+                            <div>Four</div>
+                            <div>Five</div>
+                            <div>Six</div>
+                        </div>
+
+                        <p>grid with responsiveness</p>
+                        <div class="grid grid-responsive">
+                            <div>one</div>
+                            <div>two</div>
+                            <div>three</div>
+                            <div>Four</div>
+                        </div>
+                </div>
+
+                <div class="code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253Etwo%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid%2520grid-3%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253Ethree%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid%2520grid-4%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253Ethree%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253EFour%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid%2520grid-5%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253Ethree%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253EFour%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253EFive%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid%2520grid-6%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253Ethree%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253EFour%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253EFive%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253ESix%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid%2520grid-responsive%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253Ethree%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253EFour%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+                <!-- <h4 class="component__sub-title">Circular Image</h4>
+                <p class="component__sub-desc">To generate circular image you need to add <strong>image-cirlce</strong> class to the element.</p>
+                
+                <div class="component__example image__example">
+                    <div class="image-circular">
+                        <img src="./img/avatardemo.jpg" alt="image-demo" />
+                    </div>
+                </div>
+                
+                <div class="code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=145%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image-circular%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252Fimg%252Fimagedemo.jpg%2522%2520alt%253D%2522image-demo%2522%2520%252F%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div> -->
+
+            </div>
+
+
+
+            <div class="line"></div>
+
 
             
 
