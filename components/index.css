@@ -39,10 +39,10 @@
     text-decoration: none;
     padding: 0.5rem 0;
     color: var(--primary-color);
+    transition: all 0.2s ease;
 }
 
 .nav-right a:hover{
-    transition: all 0.2s ease;
     border-bottom: 3px solid var(--primary-color);
 }
 
