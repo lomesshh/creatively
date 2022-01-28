@@ -763,7 +763,51 @@
                     </iframe>
                 </div>
 
+            </div>
 
+
+            <div class="line"></div>
+
+        
+            <!-- Navigation -->
+            <div id="Navigation" class="image__main">
+                <h1 class="component__name">Navigation</h1>            
+                <h4 class="component__sub__title">Responsive navigation with nested child</h4>
+                <p class="component__desc">The <b>nav</b> HTML element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents.</p> 
+                <p >In this example we have designed nav bar with nested menu, if you hover over the profile you will see it.</p>
+                <p class="component__desc">we have also added responsiveness to this navbar if screen size will decreased it will show you a hamburger icon</p>
+                
+                <div class="component__example nav__example">
+                    <nav class="nav-bar">
+                        <h1 class="nav-logo">Creative.ly</h1>
+                        <div class="nav-option">
+                            <div class="nav-short">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                            <ul>
+                                <li><p><i class="fas fa-home"></i> Home</p></li>
+                                <li><p><i class="far fa-file-alt"></i>Docs</p></li>
+                                <li><p><i class="far fa-user"></i>Profile</p>
+                                    <div class="nav-sub-menu">
+                                        <ul>
+                                            <li>Edit </li>
+                                            <li>Security</li>
+                                            <li>Logout</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=142%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-bar%2522%253E%250A%2509%253Ch1%2520class%253D%2522nav-logo%2522%253ECreative.ly%253C%252Fh1%253E%250A%2509%253Cdiv%2520class%253D%2522nav-option%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522nav-short%2522%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cul%253E%250A%2509%2509%2509%253Cli%253E%253Cp%253E%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%2520Home%253C%252Fp%253E%253C%252Fli%253E%250A%2509%2509%2509%253Cli%253E%253Cp%253E%253Ci%2520class%253D%2522far%2520fa-file-alt%2522%253E%253C%252Fi%253EDocs%253C%252Fp%253E%253C%252Fli%253E%250A%2509%2509%2509%253Cli%253E%253Cp%253E%253Ci%2520class%253D%2522far%2520fa-user%2522%253E%253C%252Fi%253EProfile%253C%252Fp%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522nav-sub-menu%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EEdit%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ESecurity%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ELogout%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fli%253E%250A%2509%2509%253C%252Ful%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fnav%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
 
 
             </div>
@@ -772,7 +816,6 @@
 
             <div class="line"></div>
 
-        
 
 
         </div>
