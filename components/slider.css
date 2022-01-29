@@ -1,0 +1,44 @@
+::-webkit-scrollbar {
+    height: 1px;
+  }
+  .slider-items {
+    width: 25rem;
+    height: 19rem;
+    overflow-y: hidden;
+    overflow-x: auto;
+    display: flex;
+    scroll-behavior: smooth;
+  }
+  .slider-item-wrapper {
+    flex: 0 0 25rem;
+    width: 25rem;
+    height: 19rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider-item-wrapper img,
+  .slider-item-wrapper > div {
+    height: 100%;
+    width: 100%;
+  }
+
+  .slider-buttons {
+    display: flex;
+    width: 25rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider-buttons > a {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    border: 7px solid rgb(197, 195, 195);
+    border-radius: 50%;
+    background-color: rgb(197, 195, 195);
+  }
+
+  .slider-buttons > a:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
