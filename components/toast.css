@@ -1,0 +1,40 @@
+#toast-message {
+    visibility: hidden;
+    background-color: rgb(235, 232, 232);
+    color: #333;
+    text-align: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    z-index: 1;
+    top: 4%;
+    right: 1%;
+    border-left: 7px solid var(--primary-color);
+    border-radius: 10px;
+  }
+
+  #toast-message.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+
+  @keyframes fadein {
+    from {
+      right: 0;
+      opacity: 0;
+    }
+    to {
+      right: 10px;
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeout {
+    from {
+      right: 10px;
+      opacity: 1;
+    }
+    to {
+      right: 0;
+      opacity: 0;
+    }
+  }

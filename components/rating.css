@@ -1,0 +1,48 @@
+.star-rating {
+    margin: 1rem auto;
+    position: relative;
+    width: fit-content;
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  .star-rating .star-container input {
+    display: none;
+  }
+  .star-rating label {
+    font-size: 40px;
+    color: #888;
+    padding: 10px;
+    float: right;
+  }
+  .star-container input:not(:checked) ~ label:hover,
+  .star-container input:not(:checked) ~ label:hover ~ label {
+    color: #fd4;
+  }
+  input:checked ~ label {
+    color: #fd4;
+  }
+
+  #star-1:checked ~ .star-output h3::before {
+    content: "You Rated : 1 Star";
+  }
+  #star-2:checked ~ .star-output h3::before {
+    content: "You Rated : 2 Stars";
+  }
+  #star-3:checked ~ .star-output h3::before {
+    content: "You Rated : 3 Stars";
+  }
+  #star-4:checked ~ .star-output h3::before {
+    content: "You Rated : 4 Stars";
+  }
+  #star-5:checked ~ .star-output h3::before {
+    content: "You Rated : 5 Stars";
+  }
+
+  .star-output h3 {
+    font-size: 25px;
+    text-align: center;
+  }
