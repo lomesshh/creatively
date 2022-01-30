@@ -123,6 +123,31 @@
 }
 
 
+.grid__example{
+    display: block;
+    padding: 2rem;
+    text-align: center;
+}
+
+.grid__example p{
+    margin-top: 1rem;
+}
+
+.grid__example .grid{
+    background-color: var(--primary-alert-bg-color);
+    margin-top: 0.4rem;
+}
+
+.grid__example .grid > div {
+    padding: 0.8rem 0;
+    border-left: 1px solid gray;
+  }
+
+.grid__example .grid > div:last-child {
+    border-right: 1px solid gray;
+  }
+
+
 @media screen and (max-width: 900px) {
     .nav__example{
         margin-bottom: 0;

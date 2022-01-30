@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    text-align: center;
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .grid-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .grid-responsive {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
