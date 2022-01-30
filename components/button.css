@@ -2,7 +2,7 @@
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: var(--white-color);
 }
 
 .btn:hover{
@@ -67,27 +67,27 @@
 
 
 .btn-outline-primary:hover{
-    color: white;
+    color: var(--white-color);
     background-color: var(--primary-color);
 }
 
 .btn-outline-success:hover{
-    color: white;
+    color: var(--white-color);
     background-color: var(--success-color);
 }
 
 .btn-outline-warning:hover{
-    color: white;
+    color: var(--white-color);
     background-color: var(--warning-color);
 }
 
 .btn-outline-error:hover{
-    color: white;
+    color: var(--white-color);
     background-color: var(--danger-color);
 }
 
 .btn-outline-dark:hover{
-    color: white;
+    color: var(--white-color);
     background-color: var(--dark-color);
 }
 
@@ -108,7 +108,7 @@
 }
 
 .btn-icon > * {
-    color: white;
+    color: var(--white-color);
     margin: 0 0.3rem;
 }
 
@@ -124,5 +124,5 @@
 }
 
 .btn-float > * {
-    color: white;
+    color: var(--white-color);
 }
