@@ -23,19 +23,19 @@
     padding-left: 10%;
 }
 
-.nav-right{
+.nav-right, .nav-rightOne{
     display: flex;
     align-items: center;
     margin-left: auto;
     padding: 1rem;
 }
 
-.nav-right li{
+.nav-right li, .nav-rightOne li{
     display: inline-block;
     padding: 1rem;
 }
 
-.nav-right a{
+.nav-right a, .nav-rightOne i{
     text-decoration: none;
     padding: 0.5rem 0;
     color: var(--primary-color);
@@ -44,6 +44,10 @@
 
 .nav-right a:hover{
     border-bottom: 3px solid var(--primary-color);
+}
+
+.nav-rightOne{
+    display: none;
 }
 
 /* hero */
@@ -167,22 +171,18 @@ color: var(--primary-color);
 }
 
 .install-info{
-    width: 40%;
-}
-.install-iframe{
-    overflow: hidden;
-    overflow-y: auto;
-    overflow-x: auto;
+    width: 80%;
 }
 
-iframe{
-    border: none;
-    max-height: 100px;
-    width: 600px;
-    overflow: hidden;
-    overflow-y: auto;
-    overflow-x: auto;
+.code-display{
+    width: 100%;
+    margin: 2rem 0;
+    background-color: var(--background-color);
 }
+.code-display iframe{
+    width: 100%;
+}
+
 
 .footer{
         margin: 0 auto;

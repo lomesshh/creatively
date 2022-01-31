@@ -54,7 +54,7 @@
   }
 
   .nav-option ul li:hover .nav-sub-menu ul li {
-    width: 100px;
+    width: 5.7rem;
     padding: 0.6rem;
     border-bottom: 1px solid white;
     background: transparent;
@@ -76,7 +76,7 @@
     background-color: rgb(223, 223, 223);
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 950px) {
     .nav-option ul {
       display: none;
     }

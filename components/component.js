@@ -34,3 +34,29 @@ var toastBtn = document.getElementsByClassName("toast")[0];
     x.className = x.className.replace("show", "");
     }, 3000);
   };
+
+
+// Navigation
+
+var modalNav = document.getElementById("myModal-nav");
+var btnNav = document.getElementById("myBtn-nav");
+var spanNav = document.getElementsByClassName("closeNav")[0];
+var link = document.getElementsByClassName("nav-modal-content")[0];
+
+btnNav.onclick = function () {
+  modalNav.style.display = "block";
+};
+
+link.onclick = function () {
+  modalNav.style.display = "none";
+};
+
+spanNav.onclick = function () {
+  modalNav.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target === modalNav) {
+    modalNav.style.display = "none";
+  }
+};
