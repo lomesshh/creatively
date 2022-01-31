@@ -29,8 +29,8 @@
   
   .nav-modal-content a:hover {
     background-color: rgb(158, 205, 253);
-    border-radius: 10px;
-    text-shadow: 0 0 15px lightblue;
+    border-radius: 0.6rem;
+    text-shadow: 0 0 1rem lightblue;
     cursor: pointer;
     transition: all 0.5s ease;
   }
@@ -75,12 +75,10 @@
 }
 
 .doc__sidebar{
-        width: 350px;
-        /* padding-left: 2%; */
+        width: 21.8rem;
         position: sticky;
         top: 0;
         align-self: flex-start;
-        /* box-shadow: 6px 0px 6px -7px #222; */
     }
 
 .doc__example{
@@ -107,8 +105,8 @@
 .doc__sidebar li:hover{
     background-color:rgb(158, 205, 253);  
     margin-right: 5%;
-    border-radius: 10px;  
-    text-shadow: 0 0 15px var(--primary-color);
+    border-radius: 0.6rem;  
+    text-shadow: 0 0 1rem var(--primary-color);
     transition: all 0.5s ease;
 }
 
@@ -125,7 +123,7 @@
     justify-content: center;
     align-items: center;
     border: 2px solid rgb(143, 190, 245);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     padding: 1rem 0;
     margin: 1rem 0;
     background-color: #edf0f3;
@@ -147,6 +145,9 @@
 }
 .code-display iframe{
     width: 100%;
+}
+.avatar-square {
+    padding-top: 0.3rem;
 }
 
 .alert__example > div{
@@ -239,3 +240,11 @@
         box-shadow: 0 0 0 0;
     }
   }
+
+  @media (max-width: 530px) {
+    .slider .slider-items {
+    width: 15rem;
+    height: 10rem;
+    margin-left: 20%;
+    }
+}

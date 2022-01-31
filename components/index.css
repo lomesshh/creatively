@@ -1,6 +1,6 @@
 
 .hero, .features, .installation, .footer{
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 }
 
@@ -103,7 +103,7 @@ color: var(--primary-color);
 .hero-arrow img{
     display: flex;
     margin: 0 auto;
-    height: 50px;
+    height: 3.1rem;
 }
 
 .features-name, .installation-name{
@@ -123,7 +123,7 @@ color: var(--primary-color);
 }
 
 .features-card p, .install-one span{
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .features-card h3{
@@ -138,22 +138,22 @@ color: var(--primary-color);
 }
 
 .features-card img{
-    height: 70px;
+    height: 4.3rem;
     margin: 4% 0%;
 }
 
 .features-card img[alt="weight"]{
-    height: 100px;
+    height: 6.25rem;
     margin: 0% 0%;
 }
 
 
 .card{
         color: #333;
-        border-radius: 10px;
+        border-radius: 0.6rem;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-        padding: 20px;
-        margin: 10px;
+        padding: 1.25rem;
+        margin: 0.6rem;
 }
 
 .installation{
@@ -200,7 +200,7 @@ color: var(--primary-color);
 }
   
 .footer .social a {
-    margin: 0 10px;  
+    margin: 0 0.6rem;  
 }
 
 .social i {
@@ -215,19 +215,19 @@ color: var(--primary-color);
   
 .fa-github:hover {
     color: #000000;
-    text-shadow: 0 0 15px  #000000;
+    text-shadow: 0 0 0.9rem  #000000;
     transition: all 0.5s ease;
 }
   
 .fa-linkedin:hover {
     color: var(--primary-color);
-    text-shadow: 0 0 15px var(--primary-color);
+    text-shadow: 0 0 0.9rem var(--primary-color);
     transition: all 0.5s ease;
 }
   
 .fa-twitter:hover {
     color: var(--primary-color);
-    text-shadow: 0 0 15px  var(--primary-color);
+    text-shadow: 0 0 0.9rem var(--primary-color);
     transition: all 0.5s ease;
 }
   

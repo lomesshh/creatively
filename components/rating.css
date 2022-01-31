@@ -13,9 +13,9 @@
     display: none;
   }
   .star-rating label {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #888;
-    padding: 10px;
+    padding: 0.6rem;
     float: right;
   }
   .star-container input:not(:checked) ~ label:hover,
@@ -43,6 +43,17 @@
   }
 
   .star-output h3 {
-    font-size: 25px;
+    font-size: 1.5rem;
     text-align: center;
   }
+
+  @media (max-width: 530px) {
+    .star-rating label {
+      font-size: 1.2rem;
+      color: #888;
+      padding: 0.2rem;
+    }
+    .star-output h3 {
+      font-size: 1rem;
+    }
+}

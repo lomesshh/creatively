@@ -6,10 +6,10 @@
     padding: 1rem 2rem;
     position: fixed;
     z-index: 1;
-    top: 10%;
+    top: 15%;
     right: 1%;
     border-left: 7px solid var(--primary-color);
-    border-radius: 10px;
+    border-radius: 0.6rem;
   }
 
   #toast-message.show {
@@ -23,14 +23,14 @@
       opacity: 0;
     }
     to {
-      right: 10px;
+      right: 0.6rem;
       opacity: 1;
     }
   }
 
   @keyframes fadeout {
     from {
-      right: 10px;
+      right: 0.6rem;
       opacity: 1;
     }
     to {
