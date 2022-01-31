@@ -33,8 +33,3 @@ body {
     background: linear-gradient(var(--background-color), var(--primary-color));
   }
 
-  ::selection{
-    text-shadow: rgb(39, 114, 311) 1px 0 3px;
-  }
-
-
