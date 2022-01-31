@@ -245,6 +245,14 @@
     .slider .slider-items {
     width: 15rem;
     height: 10rem;
-    margin-left: 20%;
+    }
+    .slider .slider-item-wrapper {
+        flex: 0 0 15rem;
+        width: 15rem;
+        height: 10rem;
+    }
+    .slider .slider-buttons {
+        display: flex;
+        width: 15rem;
     }
 }
