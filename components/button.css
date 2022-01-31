@@ -1,3 +1,8 @@
+:root{
+    --border-style: solid;
+    --border-width: 1px;
+}
+
 .btn{
     padding: 0.5rem 1rem;
     border: none;
@@ -36,31 +41,41 @@
 .btn-outline-primary{
     background-color: transparent;
     color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    border-style: var(--border-style);
+    border-width: var(--border-width);
+    border-color: var(--primary-color);
 }
 
 .btn-outline-success{
     background-color: transparent;
     color: var(--success-color);
-    border: 1px solid var(--success-color);
+    border-style: var(--border-style);
+    border-width: var(--border-width);
+    border-color: var(--success-color);
 }
 
 .btn-outline-warning{
     background-color: transparent;
     color: var(--warning-color);
-    border: 1px solid var(--warning-color);
+    border-style: var(--border-style);
+    border-width: var(--border-width);
+    border-color: var(--warning-color);
 }
 
 .btn-outline-error{
     background-color: transparent;
     color: var(--danger-color);
-    border: 1px solid var(--danger-color);
+    border-style: var(--border-style);
+    border-width: var(--border-width);
+    border-color: var(--error-color);
 }
 
 .btn-outline-dark{
     background-color: transparent;
     color: var(--dark-color);
-    border: 1px solid var(--dark-color);
+    border-style: var(--border-style);
+    border-width: var(--border-width);
+    border-color: var(--dark-color);
 }
 
 
