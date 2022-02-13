@@ -35,7 +35,7 @@ You can add Creatively to your page via this given link.
     - Rating - [Direct link](https://creative-ly.netlify.app/documentation.html#Rating)
     - Toast - [Direct link](https://creative-ly.netlify.app/documentation.html#Toast)
     - Grid - [Direct link](https://creative-ly.netlify.app/documentation.html#Grid)
-  - P1
+  - P2
     - Slider - [Direct link](https://creative-ly.netlify.app/documentation.html#Slider)
     - Navigation - [Direct link](https://creative-ly.netlify.app/documentation.html#Navigation)
 
