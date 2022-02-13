@@ -21,20 +21,20 @@ You can add Creatively to your page via this given link.
 
 - Components
   - Avatar - [Direct link](https://creative-ly.netlify.app/documentation.html#Avatar)
-  - Alert
-  - Badge
-  - Button
-  - Card
-  - Image
-  - Input
-  - Text Utilities
-  - Lists
-  - Navigation
-  - Modal
-  - Rating
-  - Toast
-  - Grid
-  - Slider
+  - Alert - [Direct link](https://creative-ly.netlify.app/documentation.html#Alert)
+  - Badge - [Direct link](https://creative-ly.netlify.app/documentation.html#Badge)
+  - Button - [Direct link](https://creative-ly.netlify.app/documentation.html#Button)
+  - Card - [Direct link](https://creative-ly.netlify.app/documentation.html#Card)
+  - Image - [Direct link](https://creative-ly.netlify.app/documentation.html#Image)
+  - Input - [Direct link](https://creative-ly.netlify.app/documentation.html#Input)
+  - Text Utilities - [Direct link](https://creative-ly.netlify.app/documentation.html#TextUtilities)
+  - Lists - [Direct link](https://creative-ly.netlify.app/documentation.html#Lists)
+  - Navigation - [Direct link](https://creative-ly.netlify.app/documentation.html#Navigation)
+  - Modal - [Direct link](https://creative-ly.netlify.app/documentation.html#Modal)
+  - Rating - [Direct link](https://creative-ly.netlify.app/documentation.html#Rating)
+  - Toast - [Direct link](https://creative-ly.netlify.app/documentation.html#Toast)
+  - Grid - [Direct link](https://creative-ly.netlify.app/documentation.html#Grid)
+  - Slider - [Direct link](https://creative-ly.netlify.app/documentation.html#Slider)
 
 ## Live
 [Creative.ly](https://creative-ly.netlify.app/)
