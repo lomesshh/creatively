@@ -10,7 +10,7 @@ You can add Creatively to your page via this given link.
 <link rel="stylesheet" href="https://creative-ly.netlify.app/creatively.css">
 ```
 
-## Screens
+## Screens ( All screens are responsive )
 
 > Note : If you are not able to access all components from main screen we have provided direct link for all components seperately here for you.
 
