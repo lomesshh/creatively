@@ -10,8 +10,17 @@ You can add Creatively to your page via this given link.
 <link rel="stylesheet" href="https://creative-ly.netlify.app/creatively.css">
 ```
 
-## Components
- - Avatar
+## Screens
+
+> Note : If you are not able to access all components from main screen we have provided direct link for all components seperately here for you.
+
+
+- Homepage & Documentation page
+ - Homepage - [Direct link](https://creative-ly.netlify.app/)
+ - Documentation page - [Direct link](https://creative-ly.netlify.app/documentation.html)
+
+- Components
+ - Avatar - [Direct link](https://creative-ly.netlify.app/documentation.html#Avatar)
  - Alert
  - Badge
  - Button
