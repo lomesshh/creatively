@@ -16,25 +16,25 @@ You can add Creatively to your page via this given link.
 
 
 - Homepage & Documentation page
- - Homepage - [Direct link](https://creative-ly.netlify.app/)
- - Documentation page - [Direct link](https://creative-ly.netlify.app/documentation.html)
+  - Homepage - [Direct link](https://creative-ly.netlify.app/)
+  - Documentation page - [Direct link](https://creative-ly.netlify.app/documentation.html)
 
 - Components
- - Avatar - [Direct link](https://creative-ly.netlify.app/documentation.html#Avatar)
- - Alert
- - Badge
- - Button
- - Card
- - Image
- - Input
- - Text Utilities
- - Lists
- - Navigation
- - Modal
- - Rating
- - Toast
- - Grid
- - Slider
+  - Avatar - [Direct link](https://creative-ly.netlify.app/documentation.html#Avatar)
+  - Alert
+  - Badge
+  - Button
+  - Card
+  - Image
+  - Input
+  - Text Utilities
+  - Lists
+  - Navigation
+  - Modal
+  - Rating
+  - Toast
+  - Grid
+  - Slider
 
 ## Live
 [Creative.ly](https://creative-ly.netlify.app/)
