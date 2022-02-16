@@ -1,6 +1,12 @@
-# Creative.ly
+<p align="center">
+  <a href="https://github.com/sohamsshah/sodium-ui" rel="noopener" target="_blank"><img width="150" src="./img/logo-name.png" alt="Material-UI logo"></a></p>
+</p>
 
+<h1 align="center"><b>Creative.ly</b></h1>
+
+<div align="center">
 Creatively is a lightweight, responsive & modern CSS library. it is just like bootstrap you just need to add proper classes to your HTML elements and you are good to go ! 
+</div><br/>
 
 ## Installation
 
