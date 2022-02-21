@@ -221,6 +221,10 @@ h1,h2,h3,h4,h5,h6,strong {
     border-right: 1px solid gray;
   }
 
+  .component__example input[type=range]{
+      margin-right: 1rem;
+  }
+
 
 @media screen and (max-width: 950px) {
     .nav__example{
